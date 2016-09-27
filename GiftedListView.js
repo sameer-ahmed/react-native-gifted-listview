@@ -201,11 +201,6 @@ var GiftedListView = React.createClass({
     }
   },
 
-  componentWillReceiveProps() {
- 		  this._setPage(1);
-    	this.props.onFetch(this._getPage(), this._postRefresh, {firstLoad:true});
- 	},
-
   componentDidMount() {
     InteractionManager.runAfterInteractions(() => {
        this.props.onFetch(this._getPage(), this._postRefresh, {firstLoad: true});
