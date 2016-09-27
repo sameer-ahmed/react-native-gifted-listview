@@ -1,6 +1,6 @@
 {
   "name": "react-native-gifted-listview",
-  "version": "0.0.15",
+  "version": "0.0.15.1",
   "description": "A ListView with pull-to-refresh, infinite scrolling and more for Android and iOS React-Native apps",
   "main": "GiftedListView.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FaridSafi/react-native-gifted-listview.git"
+    "url": "git+https://github.com/sameer-ahmed/react-native-gifted-listview.git"
   },
   "keywords": [
     "pull-to-refresh",
@@ -20,13 +20,12 @@
     "ios",
     "android"
   ],
-  "author": "Farid from Safi",
+  "author": "Sameer Ahmed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FaridSafi/react-native-gifted-listview/issues"
+    "url": "https://github.com/sameer-ahmed/react-native-gifted-listview/issues"
   },
-  "homepage": "https://github.com/FaridSafi/react-native-gifted-listview#readme",
+  "homepage": "https://github.com/sameer-ahmed/react-native-gifted-listview#readme",
   "dependencies": {
-    "react-native-gifted-spinner": "^0.0.4"
   }
 }
